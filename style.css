@@ -1,0 +1,324 @@
+body{
+    margin:0px;
+}
+/* First section */
+.welcome{
+    width:100%;
+    height:800px;
+    background-position:center;
+    background-image:url(media/backimage.jpg);
+    background-size:cover;
+    color: #FFFFFF;
+}
+.logo{
+    padding-left:80px;
+    padding-top: 20px;
+    float: left;
+}
+.logo img{
+    width:180px;
+}
+.links{
+    padding-right:85px;
+    padding-top: 37px;
+    float: right;   
+}
+.links a{
+    color: #FFFFFF;
+    font-size:18px;
+    padding-left:15px;
+    padding-right:10px;
+    text-decoration: none;
+    font-family : 'Alegreya', serif;;
+}
+.clear{
+    clear: both;
+}
+.welc-text{
+    text-align: center; 
+    padding-top:175px;
+}
+.welc-text h1{
+    font-size:75px;
+    font-weight: 400;
+    margin:10px;
+    font-family : 'Alegreya', serif;;
+}
+.welc-text h2{
+    font-size:22px;
+    font-weight: 400;
+    margin:10px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.welc-text p{
+    font-size:24px;
+    font-weight: 400;
+    margin:15px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.welc-text button{
+    font-family: 'Alegreya Sans', sans-serif;
+    padding: 20px 30px;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 17px;
+    border-radius:5px;
+    margin:20px 5px;    
+}
+.but1{
+    background-color: #8E7754;
+    border:solid #8E7754 2px;
+}
+.but1:hover{
+    color: #0c0c0c;
+    background-color: #FFFFFF;
+}
+.but2{
+    background-color: transparent;
+    border:solid #FFFFFF 2px;
+}
+.but2:hover{
+    color: #0c0c0c;
+    background-color: #FFFFFF;
+}
+
+/* Seconde Section */
+.about{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.container{
+    width:90%;
+    margin:auto;
+}
+.about-image{
+    float: left;
+    width:50%;
+}
+.about-image img{
+    width:95%;
+}
+.about-text{
+    width:45%;
+    float:right; 
+}
+.about-text img{
+    width:7%;
+    vertical-align:middle;
+    background-color: #ffffff;
+    margin-right:10px;
+    border: solid #EFBFBF 1px;
+    border-radius:50%;
+    
+}
+.about-text h2{
+    font-family : 'Alegreya', serif;;
+    font-weight:400;
+    font-size: 32px;
+    color: #303030;
+}
+.about-text p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size:18.5px;
+    color:#686868;
+}
+
+/* Third Section */
+.location{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color: #F8F8F8;
+}
+.loc-text{
+    width:45%;
+    float:left; 
+}
+.loc-image{
+    float:right;
+    width:50%;
+}
+.loc-image img{
+    width:95%;
+}
+.loc-text h2{
+    font-family : 'Alegreya', serif;;
+    font-weight:400;
+    font-size: 32px;
+    color: #303030;
+}
+.loc-text p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size:18.5px;
+    color:#686868;
+}
+
+/*Fourth Section */
+.baking{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.baking h2{
+    text-align: center;
+    font-family : 'Alegreya', serif;;
+    font-weight:400;
+    font-size: 32px;
+    color: #303030;
+}
+.baking p{
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    color:#686868;
+}
+.bak{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    padding-top:40px; 
+}
+.bak img{
+    width:92%;
+}
+.bak h3{
+    font-family : 'Alegreya', serif;;
+    font-weight:400;
+    font-size: 22px;
+    color: #303030;
+}
+.bak p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight:400;
+    font-size:17px;
+    color:#686868;
+}
+
+/* Fifth Section */
+.contact{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color: #F8F8F8;
+}
+.contact-text{
+    width:45%;
+    float:left; 
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.contact-text img{
+    width:6%;
+    vertical-align:middle;
+    background-color: #8E7754;
+    border-radius:50%;
+    margin-right:10px;
+}
+.contact-image{
+    width:50%;
+    float:right;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.contact-image img{
+    width:95%;
+}
+.contact-text h2{
+    font-family : 'Alegreya', serif;;
+    font-weight:400;
+    font-size: 32px;
+    color: #303030;
+}
+.contact-text p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size:18.5px;
+    color:#686868;
+}
+
+/* Sixth Section */ 
+.footer{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:#403D38;
+}
+.footer h3{
+    color: #FFFFFF;
+    font-family : 'Alegreya', serif;;
+    font-weight: 400;
+    font-size:18px;
+    margin-bottom:25px;
+}
+.footer p{
+    color: #969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size:16px;
+}
+.fot{
+    float:left;
+    width:23%;
+    margin-left:24px;
+}
+.fot1{
+    margin:0px;
+}
+.fot4{
+    background:url(media/contact-details-map.png)no-repeat;
+    background-position-x: center;
+    background-position-y:120px;
+}
+.fot4 a{
+    color: #969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    text-decoration: none;
+}
+.fot4 img{
+    width: 12%;
+    vertical-align:middle;
+}
+.arrow img{
+    width:6%;
+    vertical-align:middle;
+}
+
+/* Seventh Section */
+.end{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color: #353330;
+}
+.ending{
+    text-align: center;
+}
+.ending p{
+    color: #777777;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size:15px;
+}
+.end-links img{
+    width:3.5%;
+    margin:10px 0px;
+    background-color: #3F3D39;
+    border-radius:50%;
+}
+.fb:hover{
+    color:  #ffffff;
+    background-color: #3B5998;
+}
+.google:hover{
+    color:  #ffffff;
+    background-color: #DD4B39;
+}
+.twitter:hover{
+    color:  #ffffff;
+    background-color:#00ACED;
+}
+.linkedin:hover{
+    color:  #ffffff;
+    background-color: #007BB5;
+}
+/* THE END */
